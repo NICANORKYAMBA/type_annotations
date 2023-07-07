@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Sat Feb  8 20:02:00 2019
+Created on Fri July 07 23:02:00 2023
 
-@Author: Firstname Lastname
+@Author: Nicanor Kyamba
 """
 from sqlalchemy import Column, Integer, String, Float, ForeignKey
 from sqlalchemy.ext.declarative import declarative_base

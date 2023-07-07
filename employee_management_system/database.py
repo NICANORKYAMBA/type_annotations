@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Sat Feb  8 12:56:03 2020
+Created on Fri July  07 23:56:03 2023
 
-@Author: Firstname Lastname
+@Author: Nicanor Kyamba
 """
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
