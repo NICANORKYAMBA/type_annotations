@@ -15,7 +15,7 @@ class EmployeeDatabase:
     """Employee Database"""
     def __init__(self, db_url: str) -> None:
         """Init"""
-        self._engine = create_engine(db_url, module=MySQLdb, echo=True)
+        self._engine = create_engine(db_url, module=MySQLdb, echo=False)
         self._Session = sessionmaker(bind=self._engine)
         self.create_tables()
 

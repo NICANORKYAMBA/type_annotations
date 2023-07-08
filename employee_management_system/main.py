@@ -30,9 +30,10 @@ def main() -> None:
     session.commit()
 
     """Add departments to database"""
-    department1 = Department(name="IT", manager=employee1)
-    department2 = Department(name="Engineering")
-    session.add_all([department1, department2])
+    department1 = Department(name="IT and Communication", manager=employee1)
+    department2 = Department(name="Engineering Faculty", manager=employee3)
+    department3 = Department(name="Hospitality and Food Science", manager=employee2)
+    session.add_all([department1, department2, department3])
     session.commit()
 
     """Retrieve and display employees and departments"""
